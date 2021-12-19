@@ -1,0 +1,103 @@
+/* ============ Media Query 900px, 600px, 400px ============ */
+/* ============ 900px ============ */
+@media (max-width: 900px) {
+    header nav ul li a {
+        display: none;
+    }
+    .background--img {
+        width: 90%;
+        margin-top: 500px;
+    }
+    .home{        
+        flex-direction: column-reverse;
+    }
+    .home--text {
+        width: 90%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .button--menu{
+        display: block;
+    }
+    header nav ul {
+        display: block;
+        position: absolute;
+        background-color: #e7e7e7;
+        top: 76px;
+        line-height: 40px;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+        height: 0px;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+        
+    }
+    nav.active ul {
+        height: calc(100vh - 76px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    nav.active .button--menu i:before{
+        transition: .6s;
+        content: "\f00d";
+    }
+    .menu--link{
+        width: 100%;
+        margin: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .scroll{
+        display: none;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .cards .card-item{
+         width: 100%;
+    }
+    footer {
+        display: block;
+    }
+
+    footer .card-footer p {
+        margin-top: 30px;
+    }
+
+    footer .socials {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    header nav ul li a {
+        display: none;
+    }
+
+    .background--img {
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+    }
+
+    .home--text {
+        width: 90%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+    .scroll {
+        display: none;
+    }
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study By</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+    <link rel="stylesheet" href="./src/styles/responsive.css">
+  </head>
+  <body>
+    <header>
+      <img src="./src/images/logo.png" alt="logo" />
+      <nav>
+        <ul>
+          <li><a class="menu--link" href="#">Home</a></li>
+          <li><a class="menu--link" href="#services">Serviços</a></li>
+          <li><a class="menu--link" href="#price">Preços</a></li>
+          <li><a class="menu--link" href="#contact">Contato</a></li>
+        </ul>
+        <button class="button--menu"><i class="fas fa-bars"></i></button>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home--conteiner">
+        <div class="home--text">
+          <h1>Codar é o futuro</h1>
+          <p>
+            Escolha o futuro. Comece a controlar melhor os resultados dos seu alunos,
+            com a plataforma <b>Studyby</b>. 
+          </p>
+          <a href="#price" class="started">Comerçar</a>
+        </div>
+      </div>
+      <div>
+        <img
+          src="./src/images/background.svg"
+          class="background--img"
+          alt="imagem de fundo do conteudo"
+        />
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="description">
+        <div class="description--content">
+          <h1>Ferramenta avançada</h1>
+          <p>
+            Acompanhe o desempenho dos seus alunos nos estudos de programação, 
+            com o auxílio de uma inteligencia artificial, com integração a 
+            diversas plataformas com, UVA, URI, TopCoder, Hacker Rank entre outras.
+          </p>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card-item">
+          <img src="./src/images/bug.png" alt="grafico" />
+          <p>Correção de Bugs</p>
+          <span>
+            A plataforma auxília os alunos nas correções de bugs em seus codigos,
+            sem precisar esperar o professor para ajuda-los.
+          </span>
+        </div>
+        <div class="card-item">
+          <img src="./src/images/speed.png" alt="velocidade" />
+          <p>Registros Detalhados</p>
+          <span>
+            Obtenha informações sobre os problemas enfrentados por cada aluno,
+            os relatorios são gerados automaticamente pela plataforma.
+          </span>
+        </div>
+        <div class="card-item">
+          <img src="./src/images/pincel.png" alt="customizar" />
+          <p>Totalmente personalizável</p>
+          <span>
+            Com a ajuda da inteligencia artificial e dos relatorios o professor pode personalizar 
+            os exercícios de cada aluno para um maior e melhor desempenho da turma.
+          </span>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="price" id="price">
+      <div class="description--price">
+        <div class="description--content--price">
+          <h1>Comece agora!</h1>
+          <p>
+            Seja um dos primeiros a usar o nosso sistema.
+          </p>
+        </div>
+      </div>
+      <div class="cards">
+              <div class="card--price">
+        <div class="card--item--price">
+          <img src="./src/images/money.png" alt="velocidade" />
+          <p>FREE</p>
+          <span>
+            Estamos no modo beta, por isso, você tem a chance de usar nosso produto sem custo algum.
+          </span>
+        </div>
+      </div>
+      <div class="card--price">
+        <div class="card--item--price">
+          <img src="./src/images/money.png" alt="velocidade" />
+          <p>FREE</p>
+          <span>
+            Estamos no modo beta, por isso, você tem a chance de usar nosso produto sem custo algum.
+          </span>
+        </div>
+      </div>
+      <div class="card--price">
+        <div class="card--item--price">
+          <img src="./src/images/money.png" alt="velocidade" />
+          <p>FREE</p>
+          <span>
+            Estamos no modo beta, por isso, você tem a chance de usar nosso produto sem custo algum.
+          </span>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+      <div class="contact--content">
+        <h1>Contato</h1>
+        <form action="">
+          <input type="text" class="input" required placeholder="Nome" /><br />
+          <input type="email" class="input" required placeholder="E-mail" /><br />
+          <textarea
+            name="coment"
+            class="coment"
+            id="coment"
+            placeholder="Digite sua mensagem..."
+          ></textarea
+          ><br />
+          <input type="submit" class="started button--sub" value="Enviar" />
+        </form>
+      </div>
+    </section>
+
+    <div class="scroll" title="top"><i class="fas fa-arrow-up"></i></div>
+    <footer>
+      <div class="logo">
+        <img src="./src/images/logowhite.png" alt="" />
+      </div>
+      <div class="card-footer">
+        <p>Features</p>
+        <a href="#">Link Shortening</a>
+        <a href="#">Branded Links</a>
+        <a href="#">Analytics</a>
+      </div>
+      <div class="card-footer">
+        <p>Resources</p>
+        <a href="#">Blog</a>
+        <a href="#">Developers</a>
+        <a href="#">Support</a>
+      </div>
+      <div class="card-footer">
+        <p>Company</p>
+        <a href="#">About</a>
+        <a href="#">Our team</a>
+        <a href="#">Careers</a>
+        <a href="#">contact</a>
+      </div>
+      <div class="socials">
+        <div class="itens">
+          <i class="fab fa-facebook-square"></i>
+        </div>
+        <div class="itens">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="itens">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="./src/scripts/script.js"></script>
+    <script src="./src/scripts/scroll.js"></script>
+
+  </body>
+</html>
