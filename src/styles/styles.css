@@ -203,11 +203,10 @@ header nav ul li a:hover {
 
 /* ============ Section Price ============ */
 
-
 .price {
-  height: 100%;
+  height: calc( 100% + 75px );
   padding: 80px;
-  background: var(--color-bg-text-white);
+  background: #ececec;
 
 }
 
